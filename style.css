@@ -1,0 +1,235 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+    font-family: 'Epilogue', sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+    overflow: hidden;
+    user-select: none;
+}
+
+nav .logo {
+    position: fixed;
+    line-height: 80px;
+    padding-left: 40px;
+}
+
+nav {
+    height: 80px;
+
+}
+
+nav ul {
+    float: left;
+    margin-left: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+.drop{
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+    padding: 12px 16px;
+    position: absolute;
+    left: 155px;
+    border-radius: 10px;
+    line-height: 30px;
+    
+}
+
+.down{
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+    padding: 12px 16px;
+    position: absolute;
+    left: 300px;
+    border-radius: 10px;
+    line-height: 30px;
+}
+nav ul li a {
+    position: relative;
+    top: -5px;
+    left: 150px;
+    color: hsl(0, 0%, 41%);
+    display: block;
+    padding: 0 18px;
+    line-height: 70px;
+    font-size: 18px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    font-weight: bold;
+    color: hsl(0, 0%, 8%);
+}
+
+nav ul ul {
+    position: absolute;
+    top: 85px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+nav ul li ul a{
+    font-size: 18px;
+   
+}
+
+
+
+nav ul li:hover>ul {
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+nav ul ul ul li {
+    position: relative;
+    top: -70px;
+    left: 150px;
+
+}
+
+
+
+
+
+
+
+.right {
+    float: right;
+    position: relative;
+    top: -5px;
+    right: 20px;
+    padding: 28px;
+    font-size: 18px;
+    color: black;
+}
+
+.register {
+   
+    color: black;
+    border: 2px solid hsl(0, 0%, 41%);
+    border-radius: 12px;
+    padding: 10px 25px 10px 25px;
+
+}
+
+.login {
+    color: hsl(0, 0%, 41%);
+}
+
+
+.login:hover,
+.register:hover {
+    font-weight: bold;
+    color: hsl(0, 0%, 8%);
+
+}
+
+.dropdown {
+    content: url(/images/icon-arrow-up.svg);
+    position: relative;
+    bottom: 3px;
+
+}
+
+
+
+
+.about{
+   
+    align-items: center;
+    margin-left: 7rem;
+}
+.title{
+    font-size: 57px;
+    margin-top: 7rem;
+    position: relative;
+    top: 10px;
+   
+}
+
+.info{
+    font-size: 18px;
+    text-align: justify;
+    color:hsl(0, 0%, 41%);
+    margin-top: 2rem;
+    text-align: justify;
+    top: 28px;
+    position: relative;
+    left: 5px;
+    line-height: 30px;
+}
+
+.desktop{
+    content: url(./images/image-hero-desktop.png);
+    width: 500px;
+    height: 520px;
+    position: relative;
+    margin-left: 800px;
+    margin-top: -300px;
+
+}
+button{
+    bottom: 150px;
+    position: relative;
+    color: white;
+    background-color: black;
+    border: 2px solid ;
+    border-radius: 12px;
+    padding: 20px 20px 18px 20px;
+    font-size: 18px;
+}
+button:hover{
+    background-color: hsl(0, 0%, 98%);
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    border-color: hsl(0, 0%, 41%);
+}
+
+.footer{
+    display: flex;
+    position: relative;
+    bottom: 90px;
+    left: 110px;
+    gap: 45px;
+    
+}
+
+.databiz{
+    content: url(/images/client-databiz.svg);
+    height: 20px;  
+}
+
+.audiophile{
+    content: url(/images/client-audiophile.svg);
+    height: 20px;
+}
+
+.meet{
+    content: url(/images/client-meet.svg);
+    height: 20px;
+}
+
+.maker{
+    content: url(/images/client-maker.svg);
+    height: 20px;
+}
+
